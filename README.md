@@ -1,16 +1,22 @@
-# React + Vite
+# Module 9A - Build Your First React Component
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+## Description
+This is a React app created using Vite that renders a UserProfile component. The component includes a name, bio, and image styled with inline CSS.
 
-Currently, two official plugins are available:
+## What I Learned
+- How to set up a React project using Vite
+- How to write and structure a functional React component
+- How to use JSX and inline styles
+- How to render a component in App.jsx
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Challenges
+The profile image from the assignment's Unsplash link didn't load in my browser. I swapped in a different Unsplash photo and it worked fine after that.
 
-## React Compiler
+Also had a name color issue. The h1 text was nearly invisible against the white card because I didn't set an explicit color, so it was inheriting the dark mode text color from Vite's default CSS. Added a color value to the inline style and it fixed itself.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Ran into a git mistake too. I ran git init from my home directory instead of the actual project folder, so it tried to create a repo tracking my entire home directory (including things like Library and FaceTime data). Had to delete that .git folder and re-run git init from inside user-profile-lite.
 
-## Expanding the Oxlint configuration
+For the bonus challenge, I built a second component called ContactCard and rendered it in App.jsx alongside UserProfile.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Screenshot
+Add a screenshot of your rendered component (you can drag and drop it here if using GitHub web interface).
