@@ -19,4 +19,4 @@ Ran into a git mistake too. I ran git init from my home directory instead of the
 For the bonus challenge, I built a second component called ContactCard and rendered it in App.jsx alongside UserProfile.
 
 ## Screenshot
-Add a screenshot of your rendered component (you can drag and drop it here if using GitHub web interface).
+<img width="1728" height="1044" alt="Screenshot 2026-07-27 at 1 25 09 PM" src="https://github.com/user-attachments/assets/da5b1c7e-cc9a-46d5-a500-191d927f994c" />
